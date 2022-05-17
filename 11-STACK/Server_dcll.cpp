@@ -9,7 +9,7 @@ And the list class provides the functionalities associated with it
 #include<assert.h>
 #include"list.h"
 
-list_node::list_node()
+list_node::list_node() 
 {
 
 }
@@ -50,7 +50,7 @@ void list_node::set_next(list_node* _next)
 /////////////////////////////////////////////////////////////////////////
 //Implementation of list class
 
-list::list()
+list::list() : headNode(new list_node)
 {
 	//this->headNode = NULL;
 }

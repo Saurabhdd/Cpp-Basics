@@ -49,7 +49,7 @@ private:
 	//data member
 	//this is const pointer to head node
 	//we do not want the head node to point to any other node
-	list_node* const headNode = new list_node;
+	list_node* const headNode;
 
 	//private member functions
 	void generic_insert(list_node*, list_node*, list_node*);
