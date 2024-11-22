@@ -31,7 +31,7 @@ public:
 
 	void show()
 	{
-		printf("Date = %d - %d - %d\n", this->day, this->month, this->year);
+		printf("Date is = %d - %d - %d\n", this->day, this->month, this->year);
 	}
 
 
